@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <h1 id="heading">Generate a <br><span>random password</span></h1>
+        <p class="title">Never use an insecure password again.</p>
+        <div class="checkbox">
+            <input type="checkbox" name="numbers" id="incld-num"> <label for="incld-num">Include numbers</label>
+            <input type="checkbox" name="symbols" id="incld-sym">
+            <label for="incld-sym">Include symbols</label>
+        </div>
+        <div id="pass-limit">
+            <input type="number" id="pass-digit">        
+            <button id="generate-btn" onclick="createPassword()">Generate password</button>
+        </div>
+        <div id="line"></div>
+        <div class="pswd-container">
+            <button class="pswd pswd1" onclick="copyPassword1()"></button>
+            <button class="pswd pswd2" onclick="copyPassword2()"></button>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

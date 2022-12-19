@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Shadows+Into+Light&display=swap');
+
+:root {
+    --darkBg: #1F2937;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    width: 100%;
+    background: var(--darkBg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    min-width: 450px;
+    height: 450px;
+    padding: 50px;
+}
+
+#heading{
+    font-family: 'Karla', sans-serif;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 0;
+    margin-top: 70px;
+}
+
+#heading span {
+    color: #4ADF86;
+}
+
+.title{
+    color: #D5D4D8;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.checkbox{
+    margin-top: 50px;
+}
+
+label{
+    margin-top: 200px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #fff;
+}
+
+#pass-digit{
+    height: 40px;
+    width: 40px;
+    margin: 0;
+    padding: 0 10px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    background: #273549;
+    color: #55F991;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#generate-btn{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    background: #10B981;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    margin: 0;
+    margin-top: 10px;
+    position: relative;
+    right: 5px;
+}
+
+#line{
+    width: 100%;
+    height: 1px;
+    background: #2F3E53;
+    margin-top: 40px;
+}
+
+.pswd-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pswd{
+    width: 210px;
+    height: auto;
+    min-height: 40px;
+    background: #273549;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 30px;
+    color: #55F991;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    overflow: hidden;
+    border: none;
+}
+
+@media screen and (max-width: 600px) {
+    main{
+        transform: scale(0.5);
+    }
+}
