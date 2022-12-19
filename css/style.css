@@ -123,6 +123,28 @@ label{
 
 @media screen and (max-width: 600px) {
     main{
+        transform: scale(0.9);
+        transition-duration: 250ms;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    main{
+        transform: scale(0.7);
+        transition-duration: 250ms;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    main{
+        transform: scale(0.6);
+        transition-duration: 250ms;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    main{
         transform: scale(0.5);
+        transition-duration: 250ms;
     }
 }

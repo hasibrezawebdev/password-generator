@@ -5,7 +5,6 @@ const numbers= ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 const symbols = ["~","`","!","@","#","$","%","^","&","*","(",")","_","-","+","=","{","[","}","]",",","|",":",";","<",">",".","?",
 "/"];
 
-
 let pswd1 = document.querySelector(".pswd1");
 let pswd2 = document.querySelector(".pswd2");
 function createPassword(){
