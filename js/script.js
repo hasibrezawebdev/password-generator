@@ -28,11 +28,23 @@ function createPassword(){
 }
 
 function copyPassword1(){
-    navigator.clipboard.writeText(pswd1.textContent);
+    let text = pswd1.textContent;
+    let elem = document.createElement("textarea");
+    document.body.appendChild(elem);
+    elem.value = text;
+    elem.select();
+    document.execCommand("copy");
+    document.body.removeChild(elem);
     alert("Copy to clipboard: "+ pswd1.textContent);
 }
 
 function copyPassword2(){
-    navigator.clipboard.writeText(pswd2.textContent);
+    let text = pswd1.textContent;
+    let elem = document.createElement("textarea");
+    document.body.appendChild(elem);
+    elem.value = text;
+    elem.select();
+    document.execCommand("copy");
+    document.body.removeChild(elem);
     alert("Copy to clipboard: "+ pswd2.textContent);
 }
